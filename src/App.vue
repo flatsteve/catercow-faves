@@ -7,8 +7,8 @@ Use composition or options api - just remove "setup" to use options api
 
 api is a wrapper around axios that sets the headers and base url so you only need to define the path and http method
 /packages will return array of packages for user
-/favorites will return array of the users favorite packages (use package_id in the records)
-/favorites accepts standard HTTP methods for adding and removing rows - url = favorites?package_id=eq.${package_id}
+/favorites will return array of the users favorite packages (use package_id in the records) - try to transform to a nicer structure to suit easy lookup 
+/favorites accepts standard HTTP methods for adding and removing rows - url = /favorites?package_id=eq.${package_id}
 */
 </script>
 
